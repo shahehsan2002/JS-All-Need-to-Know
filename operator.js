@@ -22,3 +22,39 @@ console.log(a++);
 console.log(--b);
 // post decrement
 console.log(b--);
+
+// comparison operator
+// equal to (==)  not equal to (!=)  greater than (>)  less than (<)  greater than or equal to (>=)  less than or equal to (<=)  strict equal to (===)  strict not equal to (!==)   logic
+
+var a = 10
+var b = 3
+
+// equal to
+console.log(a==b);
+// not equal to
+console.log(a!=b);
+// greater than
+console.log(a>b);
+// less than
+console.log(a<b);
+// greater than or equal to
+console.log(a>=b);
+// less than or equal to
+console.log(a<=b);
+// strict equal to
+console.log(a===b);
+// strict not equal to
+console.log(a!==b);
+
+// logical operator
+// and (&&)  or (||)  not (!)   
+
+var a = 10
+var b = 3
+
+// and
+console.log(a&&b);
+// or
+console.log(a||b);
+// not
+console.log(!a);
