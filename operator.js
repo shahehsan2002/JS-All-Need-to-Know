@@ -58,3 +58,37 @@ console.log(a&&b);
 console.log(a||b);
 // not
 console.log(!a);
+
+// Bitwise operator
+// and (&)  or (|)  not (~)  xor (^)  left shift (<<)  right shift (>>)  zero fill right shift (>>>)
+
+var a = 10
+var b = 3
+
+// and
+console.log(a&b);
+// or
+console.log(a|b);
+// not
+console.log(~a);
+// xor
+console.log(a^b);
+// left shift
+console.log(a<<b);
+// right shift
+console.log(a>>b);
+// zero fill right shift
+console.log(a>>>b);
+
+//ternary operator
+// condition ? true : false
+
+var a = 10
+var b = 3
+
+console.log(a>b ? 'a is greater than b' : 'b is greater than a')
+
+// typeof operator
+// typeof
+
+console.log(typeof a)
