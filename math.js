@@ -14,7 +14,8 @@ console.log(Math.min(3, 4, 5, 6, 7));
 
 console.log(Math.pow(3, 4));
 console.log(Math.sqrt(9));
-console.log(Math.cbrt(27));
+console.log(Math.cbrt(29));
+
 
 console.log(Math.round(Math.random() * 100+1));
 
